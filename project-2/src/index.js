@@ -28,10 +28,7 @@ const App = ({ name }) => {
 <div>
 <button>Generate Password</button>
 </div>
-          
          
-
-
 
  </div>
   );
@@ -39,5 +36,5 @@ const App = ({ name }) => {
 
 ReactDOM.render(
   <App name="Password Generator " />,
-  document.getElementById('root')
+  document.getElementById("root")
 );
