@@ -10,8 +10,8 @@ const App = ({ name }) => {
 <input type="number" id="password-length" name="password-length" max="26" min="8" />
 </div>
 <div>
-  <input type="checkbox" role="switch" id="uppercase-letters">
-  <label for="uppercase-letters">Add uppercase-letters</label>
+  <input type="checkbox" id="uppercase-letters" name="uppercase-letters" />
+  <label>Add uppercase-letters</label>
 </div>
 <div>
 <label>Add Lowercase Letters</label>
