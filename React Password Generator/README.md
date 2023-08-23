@@ -1,4 +1,5 @@
-#React Password Generator 
-##Built using
+# React Password Generator 
+
+## Built with
 - React
 - Bootstrap
