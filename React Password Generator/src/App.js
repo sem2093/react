@@ -1,9 +1,10 @@
 import 'bootstrap.min.css';
-import '
+import 'styles.css';
+
 const App = ({ name }) => {
   return (
 
-<div classname="container">
+<div className="container">
 <div>
     <h1>{name}</h1>
 </div>
@@ -11,9 +12,9 @@ const App = ({ name }) => {
 <label>Password length</label>
 <input type="number" id="password-length" name="password-length" max="26" min="8" />
 </div>
-<div>
-  <input type="checkbox" id="uppercase-letters" name="uppercase-letters" />
-  <label>Add uppercase-letters</label>
+<div className="form-check form-switch">
+  <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+  <label className="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
 </div>
 <div>
 <label>Add Lowercase Letters</label>
