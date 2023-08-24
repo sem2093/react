@@ -1,3 +1,5 @@
+import 'bootstrap.min.css';
+import '
 const App = ({ name }) => {
   return (
 
