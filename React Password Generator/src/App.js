@@ -13,7 +13,7 @@ const App = ({ name }) => {
 <input type="number" id="password-length" name="password-length" max="26" min="8" />
 </div>
 <div className="form-check form-switch">
-  <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+  <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
   <label className="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
 </div>
 <div>
